@@ -1,0 +1,20 @@
+{
+    "name": "anton/patterns",
+    "autoload": {
+        "psr-4": {
+            "App\\Singleton\\": "App/Singleton",
+            "App\\Adapter\\": "App/Adapter",
+            "App\\SimpleFactory\\": "App/SimpleFactory"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton",
+            "email": "antonrakovx@icloud.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/var-dumper": "^6.0"
+    }
+}
